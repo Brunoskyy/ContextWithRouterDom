@@ -1,11 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import SignRoutes from './SignRoutes';
+import SignRoutes from "./SignRoutes";
 
 const Routes: React.FC = () => {
-    return (
-        <SignRoutes />
-    )
-}
+  return <SignRoutes />;
+};
 
 export default Routes;
