@@ -5,7 +5,9 @@ const Login: React.FC = () => {
   const context = useContext(AuthContext);
 
   console.log(context);
-  function handleLogin() {}
+  function handleLogin() {
+    context.Login();
+  }
 
   return (
     <div>
